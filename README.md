@@ -20,19 +20,22 @@ Este proyecto permite ingresar una URL desde una página web y obtener un códig
 ## ⚙️ Instalación y ejecución
 
 ### 1. Clonar el repositorio
-```bash
+
 git clone https://github.com/tu-usuario/TransformLinkToQR.git
 cd TransformLinkToQR/Back
----
+
 ### 2. Instalar dependencias del Backend
+
 npm init -y
 npm install express qrcode cors
 
 ### 3. Ejecutar el servidor 
+
 node server.js
 
 ### 4. Abrir el frontend
- Abre el Archivo Front/index.html  en tu navegador 
+
+Abre el Archivo Front/index.html  en tu navegador 
 
 
 
