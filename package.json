@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "express": "^5.1.0",
-    "open": "^10.2.0",
-    "qrcode": "^1.5.4"
-  }
-}
