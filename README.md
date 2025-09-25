@@ -1,21 +1,38 @@
-# TransformLinkToQR
-Aplicación que Genera codigos QR a partir de un link
+# 📌 TransformLinkToQR  
 
-⚙️ Prerequisitos
-Antes de empezar, asegúrate de tener Node.js y npm (el gestor de paquetes de Node) instalados en tu sistema. Puedes descargarlos desde el sitio web oficial de Node.js.
+[![Node.js](https://img.shields.io/badge/Node.js-v22.19.0-green)](https://nodejs.org/)
+![Estado](https://img.shields.io/badge/Estado-En%20desarrollo-blue)
+[![Licencia](https://img.shields.io/badge/Licencia-MIT-yellow)](LICENSE)
 
-🚀 Instalación
-Clona este repositorio en tu máquina local.
+Generador de códigos QR a partir de enlaces usando **Node.js (Express)** en el backend y **HTML + CSS + JavaScript** en el frontend.  
 
-Abre una terminal y navega hasta la carpeta del proyecto.
+Este proyecto permite ingresar una URL desde una página web y obtener un código QR generado dinámicamente por el servidor.
 
-Instala las dependencias necesarias ejecutando el siguiente comando:
+---
 
-Bash
+## 🚀 Tecnologías utilizadas
+- **Backend**: Node.js, Express, QRCode, CORS  
+- **Frontend**: HTML5, CSS3, JavaScript  
 
-npm install
+---
 
-▶️ Ejecución
-Ejecuta el script principal utilizando el siguiente comando:
+## 
+## ⚙️ Instalación y ejecución
 
-node main.js "tu url a transformar" (sin comillas)
+### 1. Clonar el repositorio
+```bash
+git clone https://github.com/tu-usuario/TransformLinkToQR.git
+cd TransformLinkToQR/Back
+---
+### 2. Instalar dependencias del Backend
+npm init -y
+npm install express qrcode cors
+
+### 3. Ejecutar el servidor 
+node server.js
+
+### 4. Abrir el frontend
+ Abre el Archivo Front/index.html  en tu navegador 
+
+
+
